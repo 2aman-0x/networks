@@ -1,4 +1,8 @@
+
+<img src="Animated GIF.gif" width="600" >
+
 ### The OSI Model from a Cybersecurity Perspective
+
 
 
 | OSI layers | Functions | Attack Vectors |
@@ -13,3 +17,4 @@
 
 
 <img src="osi-model-from-a-cybersecurity-prespective.png">
+
