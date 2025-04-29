@@ -1,9 +1,8 @@
 
-<img src="Animated GIF.gif" width="600" >
 
 ### The OSI Model from a Cybersecurity Perspective
 
-<img src="osi-model-from-a-cybersecurity-prespective.png" width="300px">
+<img src="osi-model-from-a-cybersecurity-prespective.png" width="400px" height="400">
 
 
 | OSI layers | Functions | Attack Vectors |
@@ -16,5 +15,6 @@
 | Datalink | - Frames and physical addressing <br> - Error detection and correction <br> - Switching and VLAN configuration | - ARP spoofing & poisoning <br> - STP attack & MAC spoofing <br> - Wireless vulnerability attacks
 | Physical | - Electrical/optical signaling <br> - Ethernet cables and fiber optics <br> - Physical layer configuration | - Wire tapping and tampering <br> - Signal jamming <br> - Unauthorized device install
 
+<img src="Animated GIF.gif" width="680" >
 
 
