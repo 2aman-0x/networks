@@ -3,6 +3,7 @@
 
 ### The OSI Model from a Cybersecurity Perspective
 
+<img src="osi-model-from-a-cybersecurity-prespective.png" width="300px">
 
 
 | OSI layers | Functions | Attack Vectors |
@@ -16,5 +17,4 @@
 | Physical | - Electrical/optical signaling <br> - Ethernet cables and fiber optics <br> - Physical layer configuration | - Wire tapping and tampering <br> - Signal jamming <br> - Unauthorized device install
 
 
-<img src="osi-model-from-a-cybersecurity-prespective.png">
 
