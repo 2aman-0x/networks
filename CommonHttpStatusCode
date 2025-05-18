@@ -1,21 +1,46 @@
-200 - OK : The request was completed successfully.
+200 - OK : The request was completed successfully
+
+(অর্থাৎ বলে যে তোমার রিকোয়েস্ট সফল এবং server গ্রহণ করেছে।)
 
 201 - Created : A resource has been created (for example a new user or new blog post).
 
+(অর্থাৎ বলে যে, তৈরি হয়েছে: একটা resource বানানো হয়েছে)
+
 301 - Moved Permanently : This redirects the client's browser to a new webpage or tells search engines that the page has moved somewhere else and to look there instead.
+
+(permanently সরানো হয়েছে: এইটা বলতে বুঝায় যে client অন্য নতুন webpage এ গেছে এবং search engine কে বলে যে দেখো ওই পেজ এর পরিবর্তে কোন page এ গেছে বা সরানো হয়েছে।)
 
 302 - Found : Similar to the above permanent redirect, but as the name suggests, this is only a temporary change and it may change again in the near future.
 
+(পাওয়া গিয়েছে: যেইটা একেবারে সরানো হয়েছিলো তার রকমই কিছু কিন্তু নাম অনুসারে, তবে এই পরিবর্তন অস্থায়ী এবং এটি ভবিষ্যতেও পরিবর্তন হতে পারে।)
+
+
 400 - Bad Request : This tells the browser that something was either wrong or missing in their request. This could sometimes be used if the web server resource that is being requested expected a certain parameter that the client didn't send.
+
+(খারাপ: রিকোয়েস্ট এই browser কে বলে যে client এর request এ কিছু মিসিং বা ভুল আছে। request এর মধ্যে এমন একটা প্যারামিটার আশা করে web server যা client পাঠায় নাই।)
 
 401 - Not Authorised : You are not currently allowed to view this resource until you have authorised with the web application, most commonly with a username and password.
 
+(অনুমোদিত নয়: তুমি এই resource দেখার জন্য অনুমোদিত না যতক্ষন না তুমি web server এর দ্বারা অনুমোদিত। এটা হইতে পারে username আর password)
+
 403 - Forbidden : You do not have permission to view this resource whether you are logged in or not.
+
+(নিষিদ্ধ: তুমি এই রিসোর্স দেখার জন্য অনুমোদিত নয় যদিও login হও কিংবা log out হও)
 
 405 - Method Not Allowed : The resource does not allow this method request, for example, you send a GET request to the resource /create-account when it was expecting a POST request instead.
 
+(পদ্ধতি অনুমোদিত নয়: Web Server এইরকম method এর request accept করেনা, example, হতে পারে তুমি GET রিকোয়েস্ট এর মাধ্যমে resource /create-account দিচ্ছো যেখানে server expect করেছিলো POST method request।)
+
 404 - Page Not Found : The page/resource you requested does not exist.
+
+(page পাওয়া যায়নি: যেই page/resource এর request করেছো তা আর নেই।) 
 
 500 - Internal Service Error : The server has encountered some kind of error with your request that it doesn't know how to handle properly.
 
+(অভ্যন্তরীণ service ত্রুটি: সার্ভারটি আপনার অনুরোধে এমন এক ধরনের ত্রুটির সম্মুখীন হয়েছে যে সে জানেন সেটি কিভাবে পরিচালনা করতে হবে।)
+
+
+
 503 - Service Unavailable : This server cannot handle your request as it's either overloaded or down for maintenance.
+
+(সার্ভিস অনুপলব্ধ: Server তোমার request টি handle করতে পারছেনা কারণ এটি হয় overload এর জন্য রক্ষণাবেক্ষণ হয়ে আছে কিংবা Down হয়ে আছে।)
