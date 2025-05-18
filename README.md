@@ -1,5 +1,7 @@
 [Common HTTP status code](https://github.com/2aman-0x/networks/blob/main/CommonHttpStatusCode)
 
+---
+
 ### The OSI Model from a Cybersecurity Perspective
 
 <img src="1703939854051.gif" width="680" >
